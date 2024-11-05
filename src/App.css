@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffe5e5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  background-color: #ff4081;
+  padding: 20px;
+  margin: 0;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1.1em;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #f50057;
+}
+
+.home-section, .register-section, .login-section, .search-design-section, .appointment-section, .profile-section, .nail-care-tips-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #d500f9;
+}
+
+.tips-section {
+  background-color: #ffebee;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input, label {
+  font-size: 1em;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 12px;
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #f50057;
+}
+
+.design-gallery {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.design-images img {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.note {
+  font-size: 0.9em;
+  color: #777;
+  text-align: center;
+}
